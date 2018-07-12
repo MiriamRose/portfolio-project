@@ -4,15 +4,19 @@ body {
 }
 
 header {
-
+  width: 100%;
 }
 
-main
+main {
+  width: 100%;
+}
 
-footer
+footer {
+  width: 100%;
+}
 
 h1
-
+/*for all h's: size, text position, color*/
 h2
 
 h3
@@ -20,17 +24,18 @@ h3
 h4
 
 #headerContainer
+/* needs to contain the content, margin, */
 
 #headerPicture
-
+/**/
 #mainPictureContainer
-
+/**/
 #mainPicture
-
+/**/
 #featuredWorkContainer
-
+/**/
 .projectPhoto
-
+/**/
 /* maybe necessary - if not, delete ID's in html */
 #projectOne
 #projectTwo
