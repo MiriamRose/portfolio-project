@@ -28,13 +28,15 @@ h4 {}
 #headerContainer {
 
 }
-/* needs to contain the content, margin, */
+
 
 #headerPicture {
+  display: inline-block;
 
 }
 
 #headerTitle {
+  display: inline-block;
 
 }
 /**/
@@ -49,14 +51,12 @@ h4 {}
 }
 
 .projectBlock {
+  display: inline-block;
+  width: 33%
 
 }
-/**/
+
 .projectPhoto {
+  width: 33%;
 
 }
-/**/
-/* maybe necessary - if not, delete ID's in html
-#projectOne
-#projectTwo
-#projectThree*/
