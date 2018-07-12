@@ -5,16 +5,22 @@ body {
 
 header {
   width: 100%;
+  height: 25%;
 }
 
 main {
   width: 100%;
+  height: 70%;
 }
 
 footer {
   width: 100%;
+  height: 5%
 }
 
+img {
+  width: 100%;
+}
 h1
 /*for all h's: size, text position, color*/
 h2
