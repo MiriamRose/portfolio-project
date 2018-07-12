@@ -15,17 +15,15 @@ footer {
   width: 100%;
 }
 
-img {
 
+h1 {
 }
 
-h1
-/*for all h's: size, text position, color*/
-h2
+h2 {}
 
-h3
+h3 {}
 
-h4
+h4 {}
 
 #headerContainer {
 
@@ -33,32 +31,32 @@ h4
 /* needs to contain the content, margin, */
 
 #headerPicture {
-  width: 25%;
+
 }
 
 #headerTitle {
-  width: 75%;
+
 }
 /**/
 #mainPictureContainer {
-  display: inline-block;
+
 }
 /**/
-#mainPicture
+#mainPicture {}
 /**/
 #featuredWorkContainer {
 
 }
 
 .projectBlock {
-  display: inline-block;
+
 }
 /**/
 .projectPhoto {
-  width: 33%;
+
 }
 /**/
-/* maybe necessary - if not, delete ID's in html */
+/* maybe necessary - if not, delete ID's in html
 #projectOne
 #projectTwo
-#projectThree
+#projectThree*/
