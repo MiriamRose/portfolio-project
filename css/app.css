@@ -10,36 +10,32 @@ header, main, footer {
   padding: 1em;
 }
 
-img {
-  width: inherit;
+.container {
+  padding: 1em 1em 1em;
+  width: 100%;
+  border: solid blue;
+  width: auto;
 }
 
-h1 {
-}
 
-h2 {}
-
-h3 {}
-
-h4 {}
 
 #headerContainer {
-  border: solid blue;
-  width: 100%
-  object-fit: contain;
+
+
 
 }
 
 
 #headerPicture {
-  display: inline-block;
-  width: 25%;
+
+
 
 
 }
 
 #headerTitle {
-  display: inline-block;
+
+
 
 }
 /**/
