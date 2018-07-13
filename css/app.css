@@ -3,16 +3,11 @@ body {
   font-family: Georgia, sans-serif;
 }
 
-header {
+header, main, footer {
   width: 100%;
-}
-
-main {
-  width: 100%;
-}
-
-footer {
-  width: 100%;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em;
 }
 
 img {
