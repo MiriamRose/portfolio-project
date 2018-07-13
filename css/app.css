@@ -4,26 +4,20 @@ body {
 }
 
 header, main, footer {
-  width: 100%;
+  width: auto;
   box-sizing: border-box;
-  margin: 1em;
-  padding: 1em;
+  margin: 1em 0 0 1em;
 }
 
 .container {
+  box-sizing: border-box;
   padding: 1em 1em 1em;
-  width: 100%;
-  border: solid blue;
   width: auto;
+  border: solid blue;
+  margin: 0 1em 1em 0;
 }
 
 
-
-#headerContainer {
-
-
-
-}
 
 
 #headerPicture {
@@ -39,15 +33,11 @@ header, main, footer {
 
 }
 /**/
-#mainPictureContainer {
 
-}
 /**/
 #mainPicture {}
 /**/
-#featuredWorkContainer {
 
-}
 
 .projectBlock {
   display: inline-block;
