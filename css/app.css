@@ -17,14 +17,13 @@ header, main, footer {
   margin: 0 1em 1em 0;
 }
 
-
+img {
+  width: 100%;
+}
 
 
 #headerPicture {
-
-
-
-
+  width: 25%;
 }
 
 #headerTitle {
@@ -46,6 +45,6 @@ header, main, footer {
 }
 
 .projectPhoto {
-  width: 33%;
+
 
 }
