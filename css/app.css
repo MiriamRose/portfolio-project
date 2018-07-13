@@ -15,6 +15,9 @@ footer {
   width: 100%;
 }
 
+img {
+  width: inherit;
+}
 
 h1 {
 }
@@ -27,12 +30,16 @@ h4 {}
 
 #headerContainer {
   border: solid blue;
+  width: 100%
+  object-fit: contain;
 
 }
 
 
 #headerPicture {
   display: inline-block;
+  width: 25%;
+
 
 }
 
