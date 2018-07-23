@@ -23,10 +23,13 @@ img {
 
 
 #headerPicture {
-  width: 25%;
+  width: 50%;
+  display: inline-block;
 }
 
 #headerTitle {
+  width: 50%;
+  display: inline-block;
 
 
 
