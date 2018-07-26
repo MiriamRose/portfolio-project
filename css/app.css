@@ -24,8 +24,16 @@ img {
 
 .headerContainer {
   width: 49%;
+  height: 400px;
   display: inline-block;
 }
+
+
+
+.headerContainer h1, .headerContainer h3 {
+  text-align: center;
+}
+
 
 .headerContainer img {
   border-radius: 50%;
