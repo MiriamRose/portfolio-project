@@ -1,0 +1,13 @@
+/* Responsive design for devices wider than 1200*/
+@media screen and (min-width: 1200px) {
+  header, main, footer {margin: 1em 10% 1em 10%}
+}
+
+/* Responsive design for devices between 800-1200 (flex wrap none)*/
+@media screen and (min-width: 650px) and (max-width: 1199px) {
+  .projectContainer, .soMeContainer, .flexContainer {
+    flex-wrap: nowrap;
+  }
+}
+
+/* Responsive design for devices between 800 and
