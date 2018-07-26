@@ -70,7 +70,7 @@ h4 {
   border: 1px solid #e66300;
 }
 
-.projectContainer {
+.projectContainer, .soMeContainer {
   display: flex;
   flex-wrap: wrap;
 }
@@ -88,4 +88,23 @@ h4 {
   padding: 5px;
   border: 1px solid #e66300;
   background-color: #fff1e6;
+}
+
+.iconBlock {
+  width: 20%;
+  height: auto;
+  margin: auto;
+}
+
+.soMeIcon {
+  width: 50%;
+  height: auto;
+  padding: 3em 0 3em 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.soMeIcon:hover {
+  opacity: 0.7;
 }
