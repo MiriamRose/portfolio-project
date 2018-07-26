@@ -22,18 +22,14 @@ img {
 }
 
 
-#headerPicture {
+.headerContainer {
   width: 49%;
   display: inline-block;
 }
 
-#headerTitle {
-  width: 49%;
-  display: inline-block;
 
 
 
-}
 /**/
 
 /**/
