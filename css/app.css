@@ -9,10 +9,6 @@ header, main, footer {
   margin: 1em 0 0 1em;
 }
 
-img {
-  width: 100%;
-}
-
 .container {
   box-sizing: border-box;
   padding: 1em 1em 1em;
@@ -26,16 +22,41 @@ header .container {
   flex-wrap: wrap;
 }
 
+img {
+  width: 100%;
+}
+
 .headerContainers {
   width: 49%;
   display: inline-block;
 }
 
-.headerContainer h1, .headerContainer h3 {
+h1 {
   text-align: center;
+  font-size: 4em;
+  font-weight: bolder;
+  padding: 2.5em 0 0 0;
 }
 
-.headerContainer img {
+h3 {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 0.5em 0 0 0;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
+}
+
+h4 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.headerContainers img {
   border-radius: 50%;
 }
 
