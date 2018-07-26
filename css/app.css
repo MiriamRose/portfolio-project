@@ -23,8 +23,6 @@ header .container {
   flex-wrap: wrap;
 }
 
-
-
 .headerContainers {
   width: 49%;
   display: inline-block;
