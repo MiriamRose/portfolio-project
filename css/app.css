@@ -66,11 +66,15 @@ h4 {
 }
 
 .projectBlock {
-  width: 33%;
+  width: 31%;
   height: auto;
+  padding: 1em 1em 2em 0;
 }
 
 .projectPhoto {
   width: 100%;
   height: auto;
+  border-radius: 4px;
+  padding: 4px;
+  border: 1px solid black;
 }
