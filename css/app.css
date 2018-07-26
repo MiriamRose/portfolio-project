@@ -9,6 +9,10 @@ header, main, footer {
   margin: 1em 0 0 1em;
 }
 
+img {
+  width: 100%;
+}
+
 .container {
   box-sizing: border-box;
   padding: 1em 1em 1em;
@@ -17,27 +21,19 @@ header, main, footer {
   margin: 0 1em 1em 0;
 }
 
-header.container {
+header .container {
   display: flex;
   flex-wrap: wrap;
 }
 
-img {
-  width: 100%;
-}
-
-
-.headerContainer {
+.headerContainers {
   width: 49%;
   display: inline-block;
 }
 
-
-
 .headerContainer h1, .headerContainer h3 {
   text-align: center;
 }
-
 
 .headerContainer img {
   border-radius: 50%;
