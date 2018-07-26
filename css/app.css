@@ -15,6 +15,9 @@ header, main, footer {
   width: auto;
   border: solid blue;
   margin: 0 1em 1em 0;
+}
+
+header.container {
   display: flex;
   flex-wrap: wrap;
 }
@@ -40,13 +43,17 @@ img {
   border-radius: 50%;
 }
 
+.projectContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .projectBlock {
-  display: inline-block;
   width: 33%;
-  height: 250px;
+  height: auto;
 }
 
 .projectPhoto {
-  width: auto;
-  height: 100%;
+  width: 100%;
+  height: auto;
 }
