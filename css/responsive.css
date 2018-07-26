@@ -1,12 +1,18 @@
-/* Responsive design for devices wider than 1200*/
 @media screen and (min-width: 1200px) {
-  header, main, footer {margin: 1em 10% 1em 10%}
+  header, main, footer {
+    margin: 1em 10% 1em 10%;
+  }
 }
 
-/* Responsive design for devices between 800-1200 (flex wrap none)*/
 @media screen and (min-width: 800px) and (max-width: 1199px) {
-  .projectContainer, .soMeContainer, .flexContainer {
+  .projectContainer {
     flex-wrap: nowrap;
+  }
+  h1 {
+    padding: 0.75em 0 0 0;
+  }
+  h3 {
+    padding: 0;
   }
 }
 
@@ -14,10 +20,34 @@
   .projectBlock {
     width: 47%;
   }
+  h1 {
+    padding: 0.5em 0 0 0;
+  }
+  h3 {
+    padding: 0;
+  }
+  .headerContainers {
+    width: 100%;
+  }
+  .soMeIcon {
+    width: 75%;
+  }
 }
 
 @media screen and (max-width: 639px) {
   .projectBlock  {
     width: 98%;
+  }
+  h1 {
+    padding: 0;
+  }
+  h3 {
+    padding: 0;
+  }
+  .headerContainers {
+    width: 100%;
+  }
+  .soMeIcon {
+    width: 95%
   }
 }
